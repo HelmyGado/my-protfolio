@@ -45,3 +45,31 @@ body{
 .nav-bar a:hover{
     color: red;
 }
+
+.Home{
+    width: 95%;
+    margin: auto;
+}
+
+.text{
+    padding-top: 10%;
+    line-height: 50px;
+}
+
+.text p span{
+    color: red;
+    font-size: 30px;
+}
+
+form a{
+    background-color: black;
+    color: white;
+    border: 1 solid black;
+    border-radius: 12px;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+form a:hover{
+    color: red;
+}
