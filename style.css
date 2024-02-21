@@ -2,72 +2,46 @@
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
-    color: white;
-    background-color: black;
-
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+body{
+    background-color: black;
+}
 .contanir{
     width: 90%;
+    height: 100vh;
     margin: auto;
-    line-height: 43px;
+    background-color:cornflowerblue;
+    border: 5px solid #ac9f9f4d;
+    border-radius: 11px;
 }
 
-.header {
+.header{
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    font-size: 1.4rem;
+    justify-content: space-between;
+    font-size: 25px;
     width: 95%;
     margin: auto;
-    padding-top: 9px;
+    word-spacing: 8px;
+    padding-top: 10px;
 }
 
-.logo a {
+.logo a{
     text-decoration: none;
-}
-
-.logo{
-    word-spacing: 3px;
+    color:black;
 }
 
 .logo a:hover{
-    color: darkcyan;
+    color: red;
 }
 
-.nav-bar{
-    word-spacing: 13px;
-}
-
-.nav-bar a {
+.nav-bar a{
     text-decoration: none;
-    
-}
-
-.nav-bar a:hover {
-    color: darkcyan;
-    
-}
-
-.Home  {
-    width: 95%;
-    margin: auto;
-    padding-top: 85px;
-}
-
-
-form a {
-    border: 3px solid darkcyan;
-    border-radius: 12px;
     color: black;
-    text-decoration: none;
-    display: inline-block;
-    padding: 4px 2px;
-    background-color: darkcyan;
-    
 }
 
-form a:hover{
-    color:white;
-    s
+.nav-bar a:hover{
+    color: red;
 }
