@@ -7,6 +7,7 @@
 
 body{
     background-color: black;
+    height: 5000px;
 }
 .contanir{
     width: 90%;
@@ -15,6 +16,7 @@ body{
     background-color:cornflowerblue;
     border: 5px solid #ac9f9f4d;
     border-radius: 11px;
+    position: relative;
 }
 
 .header{
@@ -26,6 +28,8 @@ body{
     margin: auto;
     word-spacing: 8px;
     padding-top: 10px;
+    position: sticky;
+    top: 0;
 }
 
 .logo a{
@@ -35,6 +39,7 @@ body{
 
 .logo a:hover{
     color: red;
+    transition: 0.3s;
 }
 
 .nav-bar a{
@@ -44,6 +49,8 @@ body{
 
 .nav-bar a:hover{
     color: red;
+    transition: 0.6s;
+    
 }
 
 .Home{
@@ -72,4 +79,11 @@ form a{
 
 form a:hover{
     color: red;
+    transition: 0.4s;
+}
+
+.lolo {
+    background-color: rgb(119, 22, 27);
+    width: 5px;
+    height: 100%;
 }
