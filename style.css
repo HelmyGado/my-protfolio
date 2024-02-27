@@ -71,8 +71,12 @@ a.Contact {
 }
 
 .text{
-    padding-top: 10%;
-    line-height: 50px;
+    margin-top: 115px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .text p span{
